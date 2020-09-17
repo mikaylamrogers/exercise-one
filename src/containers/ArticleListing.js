@@ -7,7 +7,6 @@ import ArticleCard from '../components/ArticleCard';
 import Data from '../components/data';
 
 function ArticleListing() {
-    console.log("Data", Data); // inspect to check if import works
     return (
         <main>
             <header>
