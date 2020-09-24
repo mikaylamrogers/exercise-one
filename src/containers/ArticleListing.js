@@ -8,7 +8,7 @@ import Data from '../components/data';
 
 function ArticleListing() {
     return (
-        <main>
+        <main className="ArticleListing">
             <header>
                 <h1>Articles</h1>
             </header>
