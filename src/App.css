@@ -27,25 +27,27 @@
 }
 
 .ArticleCardText {
-  flex-basis: 70%
+  flex-basis: 70%;
 }
 
 .ArticleHeaderWrapper {
   background-color: #e5e5e5;
   background-size: cover;
   background-position: center;
-  margin-bottom: 40px;
-  padding-bottom: 45px;
+  margin-bottom: 55px;
+  padding-bottom: 25px;
   padding-top: 65px;
 }
 
 .ArticleHeader {
-  margin: 0 auto 40px;
-  max-width: 600px;
+  margin: 0 auto;
+  max-width: min(80%, 600px);
+  padding: 0 10px;
 }
 
 .ArticleHeader h1 {
   font-size: 48px;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -55,8 +57,12 @@
 
 .ArticleBody {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: min(80%, 600px);
+  padding: 0 auto;
 }
+
+
+
 
 
 

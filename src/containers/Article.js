@@ -22,7 +22,9 @@ function Article() {
 
     return (
         <section className="Article">
-            <header className="ArticleHeaderWrapper" style={{  backgroundImage: `url('${articleData.image.url}')`  }}>
+            <header 
+                className="ArticleHeaderWrapper" 
+                style={{  backgroundImage: `url('${articleData.image.url}')`  }}>
                 <div className="ArticleHeader">
                     <h1>{articleData.title}</h1>
                     <p>{`${days[dayOfWeek]}, ${months[month]} ${calendarDate}, ${year}`}</p>
@@ -30,7 +32,7 @@ function Article() {
                 </div>
             </header>
 
-            <article class Name="ArticleBody">
+            <article className="ArticleBody">
                 {articleData.articleText.map((article, i) => {
                     switch (article.type) {
                         case "p":

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { days, months } from "./dateValues";
+import { days, months } from "../components/dateValues";
 
 function ArticleCard({ articleData }) {
     const date = new Date(articleData.publishedDate);
