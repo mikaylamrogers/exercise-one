@@ -8,6 +8,10 @@
   padding: 0 25px;
 }
 
+.ArticleListing h1 {
+  font-weight: normal;
+}
+
 .ArticleCard {
   border: 1px solid black;
   display: flex;
